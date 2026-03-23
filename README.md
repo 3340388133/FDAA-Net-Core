@@ -130,14 +130,35 @@ trainers/        # 训练器
 utils/           # 指标、日志、检查点工具
 experiments/     # 论文实验入口脚本
 visualization/   # 可视化辅助
+docs/report_v2/  # 完整图文报告与全部图表
 REPORT.md        # 项目报告摘要（本仓库新增）
 ```
 
 ## 7. 论文与报告
 
-- 中文论文：`FDAA-Net_Paper_CN.pdf`（交付包中）
-- V2 报告：`paper_draft_report_v2.md`（交付包中）
+- 完整图文报告：`docs/report_v2/paper_draft_report_v2.md`
+- 报告图表目录：`docs/report_v2/`
 - 本仓库摘要版：`REPORT.md`
 
-如果你是从完整交付包拆分出来的核心代码，请把论文和完整报告放到仓库根目录或 `docs/` 下，便于审稿与复现查阅。
+## 8. 图文报告（README 内嵌关键图）
 
+完整图文版见：[`docs/report_v2/paper_draft_report_v2.md`](docs/report_v2/paper_draft_report_v2.md)
+
+### 8.1 方法与架构
+
+![FDAA-Net 架构图](docs/report_v2/fig01_architecture_overview.png)
+![频域特征覆盖对比](docs/report_v2/fig02_method_comparison.png)
+![融合方式对比](docs/report_v2/fig13_fusion_comparison.png)
+
+### 8.2 鲁棒性与跨数据集结果
+
+![鲁棒性退化曲线](docs/report_v2/fig03_robustness_degradation.png)
+![鲁棒性热力图](docs/report_v2/fig04_robustness_heatmap.png)
+![跨数据集雷达图](docs/report_v2/fig06_cross_dataset_radar.png)
+
+### 8.3 消融、效率与训练动态
+
+![模块消融](docs/report_v2/fig05_ablation_combined.png)
+![损失函数消融](docs/report_v2/fig09_loss_ablation.png)
+![效率对比](docs/report_v2/fig08_efficiency_scatter.png)
+![训练曲线](docs/report_v2/fig10_training_curves.png)
