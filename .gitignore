@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Experiment outputs and artifacts
+outputs/
+checkpoints/
+logs/
+reports/
+results/
+wandb/
+
+# Large model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Datasets and local data
+datasets/
+sample_data/
+
+# Notebook and temp
+.ipynb_checkpoints/
+*.tmp
