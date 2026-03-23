@@ -235,7 +235,7 @@ From a signal processing perspective, different perturbation types affect differ
 
 > **⚠ 公平性声明（必须在论文中明确写出）**：所有9种SOTA方法均在**相同的6源数据**上从零重新训练，使用各方法原论文推荐的超参数，以确保公平对比。
 
-> **注意**：DRCT (ICML 2024) 因CUDA OOM未能完成训练，不纳入对比。论文中不要列入对比方法列表。
+
 
 ### 3.4 评估指标
 
@@ -372,8 +372,6 @@ From a signal processing perspective, different perturbation types affect differ
 | LaRE² | 64.3 | 55.3 | 57.6 | 53.3 | 59.6 | 86.2 | 50.5 | 73.1 | 89.0 | 83.2 | 67.2 |
 | C2P-CLIP | 67.1 | 57.2 | 61.1 | 56.3 | 54.9 | 71.5 | 48.6 | 48.7 | 91.9 | 89.5 | 64.7 |
 | **FDAA-Net（本文）** | 99.5 | **94.5** | **96.6** | 99.9 | **94.7** | 98.9 | **99.9** | **86.1** | 89.9 | 81.6 | **94.2** |
-
-**注意**：此表中部分方法数据来自ForenSynths JSON。如某些方法缺失，保留已有数据并注明。
 
 **分析**：
 - FDAA-Net以94.2%平均AUC排名第一，领先UnivFD 3.4pp
